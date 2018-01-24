@@ -13,11 +13,12 @@ All these are child maven modules of parent maven module * java9mavenmultimodule
 
 from the pom files, you can observe that 
 
-* apigateway depends on * service 
+* **apigateway** depends on **service** 
 and
-* service depends on * repository
+* **service** depends on **repository**
 
-* repository depends on * domain
+* **repository** depends on **domain**
+
 
 Now, implementing the above with Java 9 modularization requires few extra steps to be done compared to a non-modularized Java application.
 
